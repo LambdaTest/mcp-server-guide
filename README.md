@@ -4,7 +4,7 @@
 
 Run, debug, and triage tests using natural language, directly from your IDE.
 
-The TestMu AI MCP Server connects any [MCP](https://modelcontextprotocol.io)-compatible client to the TestMu AI (formerly LambdaTest) platform — so you can orchestrate test runs, debug failures, analyze visual regressions, and run accessibility audits without leaving your editor or switching between dashboards.
+The TestMu AI MCP Server connects any [MCP](https://modelcontextprotocol.io)-compatible client to the TestMu AI (Formerly LambdaTest) platform — so you can orchestrate test runs, debug failures, analyze visual regressions, and run accessibility audits without leaving your editor or switching between dashboards.
 
 > This repository is the setup guide and reference for the hosted MCP server. The server itself runs as a managed service at `https://mcp.lambdatest.com/mcp` — there is nothing to install or self-host.
 
