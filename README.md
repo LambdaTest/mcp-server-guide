@@ -1,4 +1,4 @@
-# TestMu AI MCP Server
+# TestMu AI (Formerly LambdaTest) MCP Server
 
 [![smithery badge](https://smithery.ai/badge/testmuai/testmu-mcp)](https://smithery.ai/servers/testmuai/testmu-mcp)
 
@@ -28,7 +28,7 @@ The TestMu AI MCP Server connects any [MCP](https://modelcontextprotocol.io)-com
 - An MCP-compatible client (see below)
 - Node.js 18+ — only if your client needs the STDIO fallback
 
-Authentication is handled over OAuth. On first connection your client opens a browser window to authorize against testmuai.com; no API keys need to be stored in config files.
+Authentication is handled over OAuth. On first connection, your client opens a browser window to authorize against testmuai.com; no API keys need to be stored in config files.
 
 ---
 
@@ -153,7 +153,7 @@ Clear the stored authentication for this server in your client's MCP settings an
 
 ## Support
 
-- [TestMu AI Support](https://www.testmuai.com/support/)
+- [TestMu AI (Formerly LambdaTest) Support](https://www.testmuai.com/support/)
 - Open an issue in this repository for problems with the setup guide itself
 
 ---
