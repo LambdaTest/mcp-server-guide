@@ -75,6 +75,30 @@ Add to your MCP configuration:
 }
 ```
 
+### Cline
+
+Open the Cline panel, click the MCP Servers icon, then Configure > Remote Servers:
+
+- Server Name: mcp-lambdatest
+- Server URL: https://mcp.lambdatest.com/mcp
+- Transport Type: Streamable HTTP
+
+Or click Configure MCP Servers in Cline to open cline_mcp_settings.json and add:
+
+```
+{
+  "mcpServers": {
+    "mcp-lambdatest": {
+      "type": "streamableHttp",
+      "url": "https://mcp.lambdatest.com/mcp"
+    }
+  }
+}
+```
+There is nothing to clone or install. Click Authenticate when it appears to complete the OAuth sign-in.
+
+
+
 ### Claude Desktop and other STDIO-only clients
 
 Clients that don't yet support remote HTTP transport can connect through `mcp-remote`:
