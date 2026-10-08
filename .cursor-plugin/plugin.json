@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "testmu-ai",
+  "version": "1.0.0",
+  "description": "Agentic AI quality engineering. Run, debug and triage tests from Cursor, plus the Kane CLI skill for browser automation and test authoring.",
+  "author": "TestMu AI",
+  "homepage": "https://www.testmuai.com/mcp/",
+  "license": "MIT"
+}
