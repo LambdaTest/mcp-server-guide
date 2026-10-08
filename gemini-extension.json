@@ -1,0 +1,9 @@
+{
+  "name": "testmu-ai",
+  "version": "1.0.1",
+  "mcpServers": {
+    "mcp-lambdatest": {
+      "httpUrl": "https://mcp.lambdatest.com/mcp"
+    }
+  }
+}
