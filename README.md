@@ -1,6 +1,7 @@
 # TestMu AI (Formerly LambdaTest) MCP Server
 
 [![smithery badge](https://smithery.ai/badge/testmuai/testmu-mcp)](https://smithery.ai/servers/testmuai/testmu-mcp)
+[![ToolSDK MCP Registry](https://badges.toolsdk.ai/badge/@toolsdk-remote/testmu-ai-mcp)](https://toolsdk-ai.github.io/toolsdk-mcp-registry/#%40toolsdk-remote%2Ftestmu-ai-mcp)
 
 Run, debug, and triage tests using natural language, directly from your IDE.
 
