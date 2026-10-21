@@ -2,8 +2,8 @@
 "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
 "name": "io.github.LambdaTest/mcp",
 "title": "TestMu AI (formerly LambdaTest)",
-"description": "Agentic testing: HyperExecute jobs, test failure triage, SmartUI visual diffs, a11y audits",
-"version": "1.0.1",
+"description": "Agentic AI quality engineering: run, debug and triage tests on real browsers and devices",
+"version": "1.0.7",
 "websiteUrl": "https://www.testmuai.com/mcp",
 "repository": {
 "url": "https://github.com/LambdaTest/mcp-server-guide",
