@@ -1,0 +1,19 @@
+{
+  "name": "testmu-ai",
+  "description": "TestMu AI (formerly LambdaTest) plugins for CodeBuddy",
+  "owner": {
+    "name": "TestMu AI"
+  },
+  "plugins": [
+    {
+      "name": "testmu-ai",
+      "description": "Run, debug and triage tests on the TestMu AI cloud through the hosted MCP server, plus Kane CLI and Rook CLI skills",
+      "source": "./",
+      "version": "1.1.0",
+      "author": { "name": "TestMu AI", "url": "https://www.testmuai.com" },
+      "homepage": "https://www.testmuai.com/mcp/",
+      "repository": "https://github.com/LambdaTest/mcp-server-guide",
+      "license": "MIT"
+    }
+  ]
+}
