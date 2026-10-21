@@ -1,0 +1,14 @@
+{
+  "name": "testmu-ai",
+  "description": "Agentic AI quality engineering. Run, debug and triage tests on the TestMu AI cloud, plus the Kane CLI skill for browser automation and test authoring and the Rook CLI skill for testing AI agents.",
+  "version": "1.1.0",
+  "author": {
+    "name": "TestMu AI",
+    "url": "https://www.testmuai.com"
+  },
+  "homepage": "https://www.testmuai.com/mcp/",
+  "repository": "https://github.com/LambdaTest/mcp-server-guide",
+  "license": "MIT",
+  "keywords": ["testmu", "lambdatest", "testing", "test-automation", "visual-regression", "accessibility", "mcp"],
+  "mcpServers": "./mcp.json"
+}
