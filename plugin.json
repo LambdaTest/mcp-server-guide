@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "testmu-ai",
+  "version": "1.1.0",
+  "description": "Agentic AI quality engineering. Run, debug and triage tests on the TestMu AI cloud, plus the Kane CLI skill for browser automation and test authoring and the Rook CLI skill for testing AI agents.",
+  "author": {
+    "name": "TestMu AI",
+    "url": "https://www.testmuai.com"
+  },
+  "homepage": "https://www.testmuai.com/mcp/",
+  "repository": "https://github.com/LambdaTest/mcp-server-guide",
+  "license": "MIT",
+  "keywords": [
+    "testmu",
+    "testmu ai",
+    "lambdatest",
+    "hyperexecute",
+    "smartui",
+    "visual regression",
+    "accessibility testing",
+    "test failures",
+    "flaky tests",
+    "test triage",
+    "kane cli",
+    "rook cli",
+    "agent testing"
+  ]
+}
