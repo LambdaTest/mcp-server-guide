@@ -171,6 +171,7 @@ Clear the stored authentication for this server in your client's MCP settings an
 ## Support
 
 - [TestMu AI (Formerly LambdaTest) Support](https://www.testmuai.com/support/)
+- [Privacy Policy](https://www.testmuai.com/legal/privacy/)
 - Open an issue in this repository for problems with the setup guide itself
 
 ---
