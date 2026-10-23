@@ -100,7 +100,7 @@ There is nothing to clone or install. Click Authenticate when it appears to comp
 ### OpenCode
 Add to `~/.config/opencode/opencode.json` (global) or `opencode.json` in your project root:
 
-```
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
@@ -118,7 +118,7 @@ Then run `opencode mcp auth testmu-ai` to sign in through your browser. `opencod
 ### Kilo Code
 Add to `~/.config/kilo/kilo.jsonc`:
 
-```
+```json
 {
   "$schema": "https://app.kilo.ai/config.json",
   "mcp": {
