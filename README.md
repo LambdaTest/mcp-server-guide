@@ -100,6 +100,7 @@ There is nothing to clone or install. Click Authenticate when it appears to comp
 ### OpenCode
 Add to `~/.config/opencode/opencode.json` (global) or `opencode.json` in your project root:
 
+```
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
@@ -110,12 +111,14 @@ Add to `~/.config/opencode/opencode.json` (global) or `opencode.json` in your pr
     }
   }
 }
+```
 
 Then run `opencode mcp auth testmu-ai` to sign in through your browser. `opencode mcp list` should show `testmu-ai connected`.
 
 ### Kilo Code
 Add to `~/.config/kilo/kilo.jsonc`:
 
+```
 {
   "$schema": "https://app.kilo.ai/config.json",
   "mcp": {
@@ -125,6 +128,7 @@ Add to `~/.config/kilo/kilo.jsonc`:
     }
   }
 }
+```
 
 Then open Kilo Settings > Agent Behaviour > MCP Servers and click Sign in next to `testmu-ai`.
 
