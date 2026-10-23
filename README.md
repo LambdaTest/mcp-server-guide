@@ -85,7 +85,7 @@ Open the Cline panel, click the MCP Servers icon, then Configure > Remote Server
 
 Or click Configure MCP Servers in Cline to open cline_mcp_settings.json and add:
 
-```
+```json
 {
   "mcpServers": {
     "mcp-lambdatest": {
