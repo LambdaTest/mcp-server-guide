@@ -97,7 +97,36 @@ Or click Configure MCP Servers in Cline to open cline_mcp_settings.json and add:
 ```
 There is nothing to clone or install. Click Authenticate when it appears to complete the OAuth sign-in.
 
+### OpenCode
+Add to `~/.config/opencode/opencode.json` (global) or `opencode.json` in your project root:
 
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "testmu-ai": {
+      "type": "remote",
+      "url": "https://mcp.lambdatest.com/mcp",
+      "oauth": {}
+    }
+  }
+}
+
+Then run `opencode mcp auth testmu-ai` to sign in through your browser. `opencode mcp list` should show `testmu-ai connected`.
+
+### Kilo Code
+Add to `~/.config/kilo/kilo.jsonc`:
+
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "testmu-ai": {
+      "type": "remote",
+      "url": "https://mcp.lambdatest.com/mcp"
+    }
+  }
+}
+
+Then open Kilo Settings > Agent Behaviour > MCP Servers and click Sign in next to `testmu-ai`.
 
 ### Claude Desktop and other STDIO-only clients
 
@@ -118,7 +147,7 @@ Clients that don't yet support remote HTTP transport can connect through `mcp-re
 
 ## Supported clients
 
-Cursor · Claude Code · Claude Desktop · GitHub Copilot · OpenAI Codex · Windsurf · Cline · Continue · Zed AI · JetBrains AI Assistant · Antigravity
+Cursor · Claude Code · Claude Desktop · GitHub Copilot · OpenAI Codex · Windsurf · Cline · Continue · Zed AI · JetBrains AI Assistant · Antigravity · OpenCode · Kilo Code
 
 Any client implementing the Model Context Protocol should work. Clients with native remote HTTP support connect directly; the rest use the `mcp-remote` fallback above.
 
