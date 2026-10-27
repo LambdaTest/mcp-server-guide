@@ -79,7 +79,7 @@ Add to your MCP configuration:
 
 Open the Cline panel, click the MCP Servers icon, then Configure > Remote Servers:
 
-- Server Name: mcp-lambdatest
+- Server Name: testmu-ai
 - Server URL: https://mcp.lambdatest.com/mcp
 - Transport Type: Streamable HTTP
 
@@ -88,7 +88,7 @@ Or click Configure MCP Servers in Cline to open cline_mcp_settings.json and add:
 ```json
 {
   "mcpServers": {
-    "mcp-lambdatest": {
+    "testmu-ai": {
       "type": "streamableHttp",
       "url": "https://mcp.lambdatest.com/mcp"
     }
