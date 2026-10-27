@@ -47,7 +47,7 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
 ```json
 {
   "mcpServers": {
-    "mcp-lambdatest": {
+    "testmu-ai": {
       "url": "https://mcp.lambdatest.com/mcp"
     }
   }
@@ -57,7 +57,7 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
 ### Claude Code
 
 ```bash
-claude mcp add --transport http mcp-lambdatest https://mcp.lambdatest.com/mcp
+claude mcp add --transport http testmu-ai https://mcp.lambdatest.com/mcp
 ```
 
 ### VS Code / GitHub Copilot
@@ -67,7 +67,7 @@ Add to your MCP configuration:
 ```json
 {
   "servers": {
-    "mcp-lambdatest": {
+    "testmu-ai": {
       "type": "http",
       "url": "https://mcp.lambdatest.com/mcp"
     }
@@ -139,7 +139,7 @@ Clients that don't yet support remote HTTP transport can connect through `mcp-re
 ```json
 {
   "mcpServers": {
-    "mcp-lambdatest": {
+    "testmu-ai": {
       "command": "npx",
       "args": ["-y", "mcp-remote@latest", "https://mcp.lambdatest.com/mcp"]
     }
