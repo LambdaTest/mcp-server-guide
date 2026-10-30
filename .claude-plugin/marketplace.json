@@ -1,0 +1,56 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "testmu-ai",
+  "description": "TestMu AI (formerly LambdaTest) plugins for Claude Code: Kane CLI for browser and mobile testing, Rook for testing AI agents, and the TestMu AI MCP server",
+  "owner": {
+    "name": "TestMu AI (formerly LambdaTest)",
+    "email": "support@testmuai.com"
+  },
+  "plugins": [
+    {
+      "name": "kane-cli",
+      "description": "Verify any browser flow from your terminal in natural language. Real Chrome, evidence-backed.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LambdaTest/kane-cli.git",
+        "path": ".claude"
+      },
+      "version": "1.0.0",
+      "author": { "name": "TestMu AI", "url": "https://www.testmuai.com" },
+      "homepage": "https://github.com/LambdaTest/kane-cli",
+      "repository": "https://github.com/LambdaTest/kane-cli",
+      "license": "Apache-2.0",
+      "category": "testing",
+      "keywords": ["kane cli", "kaneai", "browser automation", "e2e testing", "mobile testing"]
+    },
+    {
+      "name": "rook",
+      "description": "Agent Assurance by TestMu AI (rook): test how your AI agents behave across workflows, tools and actions, before they ship.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LambdaTest/rook-claude-plugin.git",
+        "path": "plugins/rook"
+      },
+      "category": "testing",
+      "keywords": ["rook", "agent assurance", "agent testing", "evals", "red-team"]
+    },
+    {
+      "name": "testmu-ai",
+      "description": "Run, debug and triage tests on the TestMu AI cloud through the hosted MCP server (HyperExecute, failure triage, SmartUI, accessibility, Test Manager), plus the Kane CLI and Rook CLI skills",
+      "source": "./",
+      "version": "1.1.0",
+      "author": { "name": "TestMu AI", "url": "https://www.testmuai.com" },
+      "homepage": "https://www.testmuai.com/mcp/",
+      "repository": "https://github.com/LambdaTest/mcp-server-guide",
+      "license": "MIT",
+      "category": "testing",
+      "keywords": ["testmu", "lambdatest", "hyperexecute", "smartui", "accessibility testing", "test triage", "mcp"],
+      "mcpServers": {
+        "testmu-ai": {
+          "type": "http",
+          "url": "https://mcp.lambdatest.com/mcp"
+        }
+      }
+    }
+  ]
+}

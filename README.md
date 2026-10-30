@@ -60,6 +60,22 @@ Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
 claude mcp add --transport http testmu-ai https://mcp.lambdatest.com/mcp
 ```
 
+Or install from the TestMu AI plugin marketplace (Claude Code v2.1.292 or later):
+
+```bash
+claude plugin install kane-cli --marketplace LambdaTest/mcp-server-guide
+claude plugin install rook --marketplace LambdaTest/mcp-server-guide
+claude plugin install testmu-ai --marketplace LambdaTest/mcp-server-guide
+```
+
+| Plugin | What you get |
+|---|---|
+| `kane-cli` | Kane CLI skill for browser automation, mobile app testing and AI test authoring |
+| `rook` | Rook inside Claude Code for testing the AI agents you build |
+| `testmu-ai` | This MCP server plus the Kane CLI and Rook CLI skills |
+
+On older versions, add the marketplace first with `claude plugin marketplace add LambdaTest/mcp-server-guide`, then run `claude plugin install kane-cli@testmu-ai`. Inside a Claude Code session, use `/plugin marketplace add LambdaTest/mcp-server-guide` and `/plugin install kane-cli@testmu-ai`.
+
 ### VS Code / GitHub Copilot
 
 Add to your MCP configuration:
