@@ -76,6 +76,29 @@ claude plugin install testmu-ai --marketplace LambdaTest/mcp-server-guide
 
 On older versions, add the marketplace first with `claude plugin marketplace add LambdaTest/mcp-server-guide`, then run `claude plugin install kane-cli@testmu-ai`. Inside a Claude Code session, use `/plugin marketplace add LambdaTest/mcp-server-guide` and `/plugin install kane-cli@testmu-ai`.
 
+### Antigravity
+
+Install the TestMu AI plugin, which bundles this MCP server with the Kane CLI and Rook CLI skills (see [`antigravity/`](antigravity/)). To install it from this repository with the Antigravity CLI:
+
+```bash
+git clone https://github.com/LambdaTest/mcp-server-guide.git
+agy plugin install ./mcp-server-guide/antigravity
+```
+
+To add only the MCP server, put this in your Antigravity MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "testmu-ai": {
+      "serverUrl": "https://mcp.lambdatest.com/mcp"
+    }
+  }
+}
+```
+
+Sign in to TestMu AI in the browser when Antigravity first connects.
+
 ### VS Code / GitHub Copilot
 
 Add to your MCP configuration:

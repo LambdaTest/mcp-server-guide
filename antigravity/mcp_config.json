@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "testmu-ai": {
+      "serverUrl": "https://mcp.lambdatest.com/mcp"
+    }
+  }
+}
