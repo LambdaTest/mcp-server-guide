@@ -14,13 +14,13 @@ This plugin bundles:
 |---|---|
 | **HyperExecute** | Generates HyperExecute YAML and test runner commands, triggers jobs and reports their status. |
 | **Automation** | Triages failed tests by pulling execution details, command logs, network logs and console errors into one place. |
-| **SmartUI** | Explains visual regressions in plain English: pixel, layout, DOM and perceptual differences. |
+| **SmartUI** | Explains visual regressions in natural language: pixel, layout, DOM and perceptual differences. |
 | **Accessibility** | Runs WCAG audits on hosted URLs or local React apps and returns violations with remediation guidance. |
 | **Test Manager** | Covers the test management lifecycle, from AI test case generation to recording results in bulk. |
 
 | Skill | What it does |
 |---|---|
-| **`/kanecli-skill`** | Drives a real browser with Kane CLI: runs objectives in plain English, generates test cases from a description, designs requirement-linked suites from a spec, and runs mobile app tests on emulators, simulators or the TestMu AI cloud. |
+| **`/kanecli-skill`** | Drives a real browser with Kane CLI: runs objectives in natural language, generates test cases from a description, designs requirement-linked suites from a spec, and runs mobile app tests on emulators, simulators or the TestMu AI cloud. |
 | **`/rook-skill`** | Tests AI agents with Rook CLI: scenarios, profiles, verdicts and CI runs. |
 
 ## Requirements
