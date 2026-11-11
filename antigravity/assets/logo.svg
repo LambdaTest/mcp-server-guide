@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>TestMu AI</title>
+  <rect x="51" y="51" width="410" height="410" rx="92" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="4"/>
+  <g transform="translate(117.8 117.9) scale(0.54)" fill="#121212">
+    <path d="M477.998 6H344.789V327.922H477.998V6Z"/>
+    <path d="M167.209 6H33.9999V189.163L167.209 327.922V6Z"/>
+    <path d="M167.209 327.947H33.9999V505.559H167.209V327.947Z"/>
+    <path d="M344.756 327.947H167.144L272.601 461.156H344.756V327.947Z"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "testmu-ai",
+  "displayName": "TestMu AI",
+  "version": "1.2.0",
+  "description": "Run, debug and triage tests on the TestMu AI cloud, plus Kane CLI for browser and mobile test automation and Rook CLI for testing AI agents.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "My last automation build failed. Pull the console and network logs and tell me why.",
+    "Run an accessibility audit on https://staging.example.com and list WCAG violations by severity.",
+    "Use Kane CLI to open my app's login page, sign in and confirm the dashboard loads."
+  ],
+  "author": {
+    "name": "TestMu AI",
+    "url": "https://www.testmuai.com"
+  },
+  "homepage": "https://www.testmuai.com/mcp/",
+  "repository": "https://github.com/LambdaTest/mcp-server-guide",
+  "license": "MIT",
+  "keywords": [
+    "testmu-ai",
+    "lambdatest",
+    "test-automation",
+    "hyperexecute",
+    "smartui",
+    "accessibility-testing",
+    "test-failures",
+    "test-triage",
+    "kane-cli",
+    "rook-cli",
+    "agent-testing",
+    "mcp"
+  ]
+}
