@@ -2,7 +2,7 @@
 
 # Assurance — Agent Surface
 
-When the user has **requirements** — a PRD, a spec, acceptance notes — and wants tests designed from them, wants to know what's covered, or wants the suite kept current, use the **assurance commands** (`kane-cli context`, `design`, `cover`, `maintain`). Do not hand-write the tests, and do not reach for `generate`:
+When the user has **requirements** — a PRD, a spec, acceptance notes — and wants tests designed from them, wants to know what's covered, or wants the suite kept current, and has chosen kane-cli for it, use the **assurance commands** (`kane-cli context`, `design`, `cover`, `maintain`) rather than `generate`:
 
 - `kane-cli generate` = quick scenarios/cases from a one-line description. No requirement linkage.
 - **Assurance** = tests derived from the actual documents, every claim cited, every test permanently tagged with the acceptance criteria it verifies, coverage measured against requirements. Use it whenever the user cares about "what exactly is covered, and how do we know?"
