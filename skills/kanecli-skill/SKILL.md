@@ -160,7 +160,7 @@ When the user's request involves a browser — or writing test cases:
 - A single one-shot browser task → build a `kane-cli run --agent` command (§3 + §4)
 - A test they want to save / re-run / commit → Read `references/testmd.md` first, then use `kane-cli testmd`
 - Run a suite of saved tests (several `_test.md` at once) → Read `references/testrun.md` first, then use `kane-cli testrun run`
-- Need test cases or scenarios from a short description — because the user asked, or because the task needs them (no browser) → **don't hand-write them**; Read `references/generate.md` first, then use `kane-cli generate` (§6)
+- The person wants kane-cli to generate test cases or scenarios from a short description (no browser) → Read `references/generate.md` first, then use `kane-cli generate` (§6)
 - Has requirement documents (PRD/spec) and wants a designed suite, coverage accounting, or suite upkeep → Read `references/assurance.md` first — the assurance commands (`context`/`design`/`cover`/`maintain reconcile`, kane-cli 0.6.1+; several features need newer releases, up to 0.8.14+ — the reference marks each), NOT `generate`
 - A **designed** test (its `_test.md` carries an `assurance:` block) failed a run → Read `references/assurance.md` §6.1 **before touching the file** — an edit is adopted as the next design version on the next run; classify the failure first (app bug → report it; requirement changed → reconcile; wording → redesign through the CLI; capability missing → stop), and edit a step of an existing designed test by hand only after reading `references/objectives-cookbook.md`
 - Share the context store with a team, join a teammate's, keep two stores level, or resolve a sync conflict → Read `references/context-sync.md` first — `kane-cli context sync`, `kane-cli context push`, `kane-cli context pull` and `kane-cli context clone` (kane-cli 0.8.14+); the store is shared through a location, never by copying or git-merging `.context/`
@@ -323,7 +323,7 @@ The assurance conversational commands (`context ingest`/`context extract`, `desi
 
 ## 6. Generate test cases (authoring — no browser)
 
-`kane-cli generate` authors **Test Scenarios → Test Cases** from a plain-language description. It does **not** drive a browser. **Use it whenever a task needs quick test cases or scenarios from a description — don't hand-author them in chat or a file.** (Requirement documents + coverage accounting → assurance instead: `references/assurance.md`.) Reach for it to: turn a feature / requirement description into a test suite; expand or refine coverage (more edge cases, negative paths, a narrower focus); or save the Functional cases as runnable `_test.md` and hand them to `kane-cli testmd run`. Full details + event schema: **Read `references/generate.md`**.
+`kane-cli generate` authors **Test Scenarios → Test Cases** from a plain-language description. It does **not** drive a browser. **Use it when the person asks kane-cli for quick test cases or scenarios from a description.** If they write tests themselves or use another framework, leave that to them. (Requirement documents + coverage accounting → assurance instead: `references/assurance.md`.) Reach for it to: turn a feature / requirement description into a test suite; expand or refine coverage (more edge cases, negative paths, a narrower focus); or save the Functional cases as runnable `_test.md` and hand them to `kane-cli testmd run`. Full details + event schema: **Read `references/generate.md`**.
 
 Three explicit modes, each runs **one turn then exits**:
 
