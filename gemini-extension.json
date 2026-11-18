@@ -1,9 +1,13 @@
 {
   "name": "testmu-ai",
   "version": "1.0.7",
+  "description": "TestMu AI (Formerly LambdaTest) is an Agentic AI Quality Engineering platform that assures AI deployments across the enterprise and the real world. It runs agentic testing for web and mobile apps on 3,000+ browsers and 50,000+ real devices, and for chat, voice, IVR, video, and image agents. The hosted TestMu AI MCP Server lets you run, debug, and triage tests using natural language, directly from your IDE.",
   "mcpServers": {
     "testmu-ai": {
-      "httpUrl": "https://mcp.lambdatest.com/mcp"
+      "httpUrl": "https://mcp.lambdatest.com/mcp",
+      "oauth": {
+        "enabled": true
+      }
     }
   }
 }
