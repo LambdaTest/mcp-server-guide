@@ -238,7 +238,6 @@ Clear the stored authentication for this server in your client's MCP settings an
 
 - [MCP Server documentation](https://www.testmuai.com/support/docs/testmu-mcp-server/)
 - [Product overview](https://www.testmuai.com/mcp/)
-- [Smithery listing](https://smithery.ai/servers/testmuai/testmu-mcp)
 
 ## Support
 
