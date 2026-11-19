@@ -59,6 +59,10 @@ Run an accessibility audit on https://staging.example.com and list WCAG violatio
 Use Kane CLI to open my app's login page, sign in and confirm the dashboard loads.
 ```
 
+```
+Use Rook to test the refund agent in this repository against its refund policy.
+```
+
 ## Troubleshooting
 
 **The MCP server shows "Unauthorized".** Select **Authenticate** for `testmu-ai` under **Customizations > MCP Servers** and complete the browser sign-in. To switch accounts, select **Sign out** first.
