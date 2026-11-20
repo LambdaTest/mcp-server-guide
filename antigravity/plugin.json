@@ -2,13 +2,13 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "testmu-ai",
   "displayName": "TestMu AI",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Run, debug and triage tests on the TestMu AI cloud, plus Kane CLI for browser and mobile test automation and Rook CLI for testing AI agents.",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
-    "My last automation build failed. Pull the console and network logs and tell me why.",
-    "Run an accessibility audit on https://staging.example.com and list WCAG violations by severity.",
-    "Use Kane CLI to open my app's login page, sign in and confirm the dashboard loads."
+    "Generate a HyperExecute YAML for my Playwright TypeScript tests and run it.",
+    "Use Kane CLI to open my app's login page, sign in and confirm the dashboard loads.",
+    "Use Rook to test the refund agent in this repository against its refund policy."
   ],
   "author": {
     "name": "TestMu AI",
