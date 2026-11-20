@@ -28,7 +28,7 @@
       "description": "Agent Assurance by TestMu AI (rook): test how your AI agents behave across workflows, tools and actions, before they ship.",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/LambdaTest/rook-claude-plugin.git",
+        "url": "https://github.com/LambdaTest/rook-plugin.git",
         "path": "plugins/rook"
       },
       "category": "testing",
