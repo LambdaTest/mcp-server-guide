@@ -19,7 +19,7 @@ Add the plugin to `opencode.json` (project) or `~/.config/opencode/opencode.json
 }
 ```
 
-OpenCode installs it on the next start. The plugin supports OpenCode 1 (1.19.3 or newer).
+OpenCode installs it on the next start. The plugin supports OpenCode 1 (1.19.3 or newer) and OpenCode 2 (2.3.2 or newer).
 
 ## Sign in
 
@@ -29,7 +29,7 @@ The MCP server uses OAuth. The first time OpenCode connects to it, sign in to Te
 opencode mcp auth testmu-ai
 ```
 
-No API keys are stored in your config. If you already have a `testmu-ai` MCP entry in your config, the plugin leaves it as it is.
+No API keys are stored in your config. If your config already has the TestMu AI MCP server (under any name, matched by its URL), the plugin leaves it as it is and doesn't add a second one.
 
 The skills call their own CLIs, which have their own sign-in:
 

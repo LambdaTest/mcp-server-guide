@@ -32,7 +32,11 @@
     "url": "https://github.com/LambdaTest/mcp-server-guide",
     "directory": "opencode"
   },
+  "scripts": {
+    "prepack": "node copy-skills.mjs",
+    "postpack": "node copy-skills.mjs --clean"
+  },
   "engines": {
-    "opencode": "^1.19.3"
+    "opencode": "^1.19.3 || ^2.3.2"
   }
 }
