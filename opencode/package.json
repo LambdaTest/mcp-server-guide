@@ -1,0 +1,38 @@
+{
+  "name": "@testmuai/opencode-plugin",
+  "version": "0.1.0",
+  "description": "TestMu AI plugin for OpenCode: the hosted TestMu AI MCP server plus the Kane CLI and Rook CLI skills",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "skills",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "testmu-ai",
+    "lambdatest",
+    "mcp",
+    "kane-cli",
+    "rook",
+    "test-automation",
+    "agent-testing"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "TestMu AI",
+    "url": "https://www.testmuai.com"
+  },
+  "homepage": "https://www.testmuai.com/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LambdaTest/mcp-server-guide",
+    "directory": "opencode"
+  },
+  "engines": {
+    "opencode": "^1.19.3"
+  }
+}
