@@ -25,12 +25,13 @@
   "skills": "./skills/",
   "mcpServers": {
     "testmu-ai": {
-      "url": "https://mcp.lambdatest.com/mcp"
+      "url": "https://mcp.lambdatest.com/mcp",
+      "auth": "oauth"
     }
   },
   "interface": {
     "displayName": "TestMu AI",
-    "shortDescription": "Run, debug and triage tests on the TestMu AI cloud, plus Kane CLI and Rook CLI skills",
+    "shortDescription": "Run, debug and triage tests on the TestMu AI cloud, plus Kane CLI and Rook CLI skills.",
     "longDescription": "TestMu AI (Formerly LambdaTest) is an Agentic AI Quality Engineering platform that assures AI deployments across the enterprise and the real world. It runs agentic testing for web and mobile apps on 3,000+ browsers and 50,000+ real devices, and for chat, voice, IVR, video, and image agents. This plugin connects Kimi to the hosted TestMu AI MCP server (OAuth sign-in in the browser, no API keys in config) to run, debug and triage tests across web automation, HyperExecute, SmartUI visual testing, accessibility scans and Test Manager. It also adds the Kane CLI skill for browser and mobile test automation from natural-language objectives, and the Rook CLI skill for testing how AI agents behave before they ship.",
     "developerName": "TestMu AI",
     "websiteURL": "https://www.testmuai.com",
@@ -43,11 +44,11 @@
     "skillOverrides": {
       "kanecli-skill": {
         "displayName": "Kane CLI",
-        "description": "Browser and mobile test automation and test authoring from natural-language objectives"
+        "description": "Browser and mobile test automation and test authoring from natural-language objectives."
       },
       "rook-skill": {
         "displayName": "Rook CLI",
-        "description": "Test, evaluate and red-team AI agents before they ship"
+        "description": "Test, evaluate and red-team AI agents before they ship."
       }
     }
   }
