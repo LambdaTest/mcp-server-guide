@@ -1,0 +1,27 @@
+{
+  "displayName": "TestMu AI",
+  "shortDescription": "在 TestMu AI 云端运行、调试和分类排查测试，并集成 Kane CLI 和 Rook CLI 技能。",
+  "longDescription": "TestMu AI（原 LambdaTest）是一个智能体 AI 质量工程平台，为企业和真实场景中的 AI 部署提供质量保障。它在 3,000 多种浏览器和 50,000 多台真机上为 Web 和移动应用运行智能体测试，同时支持聊天、语音、IVR、视频和图像智能体的测试。该插件将 Kimi 连接到托管的 TestMu AI MCP 服务器（在浏览器中通过 OAuth 登录，无需在配置中填写 API 密钥），可在 Web 自动化、HyperExecute、SmartUI 视觉测试、无障碍扫描和 Test Manager 中运行、调试和分类排查测试。此外，它还集成了 Kane CLI 技能，可根据自然语言目标实现浏览器和移动端测试自动化；以及 Rook CLI 技能，可在 AI 智能体上线前测试其行为表现。",
+  "developerName": "TestMu AI",
+  "tryPrompts": [
+    "为我的 Playwright TypeScript 测试生成 HyperExecute YAML 并运行。",
+    "使用 Kane CLI 打开我的应用登录页面，完成登录并确认仪表盘已加载。",
+    "使用 Rook 根据退款政策测试此代码仓库中的退款智能体。"
+  ],
+  "mcpOverrides": {
+    "testmu-ai": {
+      "displayName": "TestMu AI MCP 服务器",
+      "description": "托管的 MCP 服务器，用于测试运行、失败分类排查、SmartUI、无障碍测试和 Test Manager。使用您的 TestMu AI 账号登录。"
+    }
+  },
+  "skillOverrides": {
+    "kanecli-skill": {
+      "displayName": "Kane CLI",
+      "description": "根据自然语言目标进行浏览器和移动端测试自动化及测试编写。"
+    },
+    "rook-skill": {
+      "displayName": "Rook CLI",
+      "description": "在 AI 智能体上线前对其进行测试、评估和红队测试。"
+    }
+  }
+}

@@ -35,6 +35,14 @@
     "longDescription": "TestMu AI (Formerly LambdaTest) is an Agentic AI Quality Engineering platform that assures AI deployments across the enterprise and the real world. It runs agentic testing for web and mobile apps on 3,000+ browsers and 50,000+ real devices, and for chat, voice, IVR, video, and image agents. This plugin connects Kimi to the hosted TestMu AI MCP server (OAuth sign-in in the browser, no API keys in config) to run, debug and triage tests across web automation, HyperExecute, SmartUI visual testing, accessibility scans and Test Manager. It also adds the Kane CLI skill for browser and mobile test automation from natural-language objectives, and the Rook CLI skill for testing how AI agents behave before they ship.",
     "developerName": "TestMu AI",
     "websiteURL": "https://www.testmuai.com",
+    "category": "DEVELOPER",
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "Generate a HyperExecute YAML for my Playwright TypeScript tests and run it.",
+      "Use Kane CLI to open my app's login page, sign in and confirm the dashboard loads.",
+      "Use Rook to test the refund agent in this repository against its refund policy."
+    ],
     "mcpOverrides": {
       "testmu-ai": {
         "displayName": "TestMu AI MCP Server",
